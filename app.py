@@ -6,7 +6,7 @@ from openai import OpenAI
 import os
 from docx import Document  
 
-api_key = "f614cad0fabe42bd8f287a921066b771"  
+api_key = ""  
 base_url = "https://api.aimlapi.com/v1"
 api = OpenAI(api_key=api_key, base_url=base_url)
 
